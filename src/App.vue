@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <top-navigation />
+    <top-app-bar />
     <router-view/>
   </div>
 </template>
 
 <script>
-import TopNavigation from '@/components/TopNavigation'
+import TopAppBar from '@/components/appbar/TopAppBar'
 export default {
   components: {
-    TopNavigation
+    TopAppBar
   }
 }
 </script>

@@ -1,5 +1,13 @@
 <template>
-  <div class="setting">
-    <h1>This is an settings page</h1>
-  </div>
+  <content-wrapper>
+    <h3>This is an settings page</h3>
+  </content-wrapper>
 </template>
+
+<script>
+import ContentWrapper from '@/components/layout/ContentWrapper.vue'
+
+export default {
+  components: { ContentWrapper }  
+}
+</script>

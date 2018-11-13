@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto mt-12">
+  <content-wrapper>
     
     <div class="flex">
       <div class="bg-white text-grey-darkest flex-1 py-6 px-4 rounded-lg mr-4">
@@ -23,14 +23,15 @@
       </div>
     </div>
 
-  </div>
+  </content-wrapper>
 </template>
 
 <script>
 // @ is an alias to /src
+import ContentWrapper from '@/components/layout/ContentWrapper.vue'
 
 export default {
   name: "home",
-  components: {}
+  components: { ContentWrapper }
 }
 </script>

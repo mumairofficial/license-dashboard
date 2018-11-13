@@ -6,11 +6,11 @@
 </template>
 
 <script>
-import AppHeader from './layout/Header'
-import AppNavigation from './layout/Navigation'
+import AppHeader from './Header'
+import AppNavigation from './Navigation'
 
 export default {
-  name: 'TopNavigation',
+  name: 'TopAppBar',
   components: {
     AppHeader,
     AppNavigation
